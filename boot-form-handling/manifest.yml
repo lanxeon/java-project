@@ -1,0 +1,8 @@
+---
+applications:
+- name: boot-form-handling
+  path: target/workshop2.jar
+  memory: 1G
+  instances: 1
+services:
+- mysql
